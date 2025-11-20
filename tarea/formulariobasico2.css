@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to right, #455258, #20315e);
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #6bade4;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    border: 3px solid rgb(5, 2, 163);
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid rgb(5, 2, 163);
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #0b028d;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* RECUADRO ÉXITO */
+#mensajeExito {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    background: #ffffff;
+    color: #053ba0;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid #0e008f;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+#btnOtro {
+    margin-top: 25px;
+    padding: 15px 40px;
+    font-size: 20px;
+    background: #4176bb;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

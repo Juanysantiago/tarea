@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario Básico</title>
+
+<!-- Vincular CSS -->
+<link rel="stylesheet" href="formulariobasico2.css">
+
+</head>
+
+<body>
+
+    <form id="miFormulario" class="contenedor">
+
+        <h1>Formulario</h1>
+
+        <p>Nombre:</p>
+        <input id="nombre" type="text" placeholder="Escribe aquí" autocomplete="off" required>
+
+        <p>Apellido:</p>
+        <input id="apellido" type="text" placeholder="Escribe aquí" autocomplete="off" required>
+
+        <p>Correo:</p>
+        <input id="correo" type="email" placeholder="Escribe aquí" autocomplete="off" required>
+
+        <p>Producto:</p>
+        <input id="producto" type="text" placeholder="Escribe aquí" autocomplete="off" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- RECUADRO DE ÉXITO -->
+    <div id="mensajeExito">
+        ✔ Se envió con éxito <br><br>
+        <button id="btnOtro" onclick="cerrarExito()">Llenar otro formulario</button>
+    </div>
+
+    <!-- Vincular JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
